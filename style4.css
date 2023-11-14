@@ -1,115 +1,192 @@
 * {
-    margin:0px;
-    padding: 0px;
-    font-family: 'Times New Roman', Times, serif;
-    /* background: url(chemistrylab.jpg); */
-  }
+  margin: 0px;
+  padding: 0px;
+  font-family: "Times New Roman", Times, serif;
+  /* background: url(chemistrylab.jpg); */
+}
 
-  .left{
-    position: absolute;
-    left: 34px;
-    top: 20px;
-    display: inline-block;
-    /* border: 2px solid red; */
-  }
-  
-  .left img{
-    height: 40px;
-  }
-  .container-1{
-      height: 40vh;
-      width: 100vw;
-      background-color: red;
-  }
-  
-  .container-2{
-      height: 40vh;
-      width: 100vw;
-      background-color: red;
-  }
-  
-  .mid{
-    background-color: black;
-    display: block;
-    width: 51%;
-    margin: 20px auto;
-  }
-  
-  .active {
-    background-color: #04AA6D; 
-  }
-  
-   .topnav {
-    overflow: hidden;
-    background-color: #e9e9e9;
-  }
-  
-  .topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .topnav a:hover {
-    background-color: red;
-    color: rgb(35, 76, 210);
-  }
-  
-  .topnav a.active {
-    background-color: #2196F3;
-    color:  rgb(35, 76, 210)
-  }
-  
-  .topnav input[type=text] {
-    float: right;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-  }
+.left {
+  position: absolute;
+  left: 34px;
+  top: 20px;
+  display: inline-block;
+  /* border: 2px solid red; */
+}
 
-  h1{
-    display: inline;
-    background-color: wheat;
-    margin-left: 40%;
-    border: 2px solid red;
-    text-align: center;
-  }
+.left img {
+  height: 40px;
+}
 
-  table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 40px;
-    border-spacing: 30px;
-  }
+.right{
+  position: absolute;
+  right: 34px;
+  top: 20px;
+  display: inline-block;
+}
 
-  tr:nth-child(even) {
-    background-color: #6ccfcf;
-  }
+.btn {
+  display: inline;
+  font-family: 'Baloo Bhai', cursive;
+  margin: 0px 9px;
+  background-color: white;
+  color: blue;
+  padding: 4px 8px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
 
-  
-  tr:nth-child(odd) {
-    background-color: rgb(235, 205, 205);
-  }
+.btn :hover{
+  cursor: pointer;
+}
 
-  .copy{
-    display: fixed;
-    justify-content: center;
-    text-align: center;
-    background-color: whitesmoke;
-    height: 5vh;
-    padding: 0 0 5px 0;
-    margin-right: 20px;
-    margin-top: 200px;
-    opacity: 0.7;
-    overflow: hidden;
-  }
-  
+.container-1 {
+  height: 40vh;
+  width: 100vw;
+  background-color: red;
+}
+
+.container-2 {
+  height: 40vh;
+  width: 100vw;
+  background-color: red;
+}
+
+.mid {
+  background-color: black;
+  display: block;
+  width: 51%;
+  margin: 20px auto;
+}
+
+.active {
+  background-color: #04aa6d;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: rgb(35, 76, 210);
+}
+
+.topnav a.active {
+  background-color: #2196f3;
+  color: rgb(35, 76, 210);
+}
+
+.topnav input[type="text"] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+h1 {
+  display: inline;
+  background-color: wheat;
+  margin-left: 40%;
+  border: 2px solid red;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+  border-spacing: 30px;
+}
+
+tr:nth-child(even) {
+  background-color: #6ccfcf;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(235, 205, 205);
+}
+
+.social-media {
+  overflow: hidden;
+  height: 38px;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  /* -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(10%); */
+  text-align: center;
+  margin-left: 540px;
+  width: 100%;
+  background-color: wheat;
+}
+
+.social-media a {
+  padding: 16px;
+  font-size: 20px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.social-media a:hover {
+  background-color: #000;
+}
+
+.facebook {
+  background: #3b5998;
+  /* color: white; */
+}
+
+.twitter {
+  background: #55acee;
+  color: lightskyblue;
+}
+
+.google {
+  background: wheat;
+  color: #dd4b39;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: darkblue;
+}
+
+.youtube {
+  background: #bb0000;
+  color: red;
+}
+
+.copy {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: whitesmoke;
+  height: 5vh;
+  padding: 0 0 5px 0;
+  margin-right: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  opacity: 0.7;
+}
